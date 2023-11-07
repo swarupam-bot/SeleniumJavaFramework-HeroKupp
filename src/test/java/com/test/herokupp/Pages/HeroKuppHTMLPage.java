@@ -75,7 +75,7 @@ public class HeroKuppHTMLPage extends UtilsWebElements {
 
         }
 
-
+       //Doing assertion and validating the table and data
         if (dynamictable.isDisplayed()) {
             Reporter.log("Table is Displayed.");
             List<WebElement> tableRows = dynamictable.findElements(By.xpath("//*[text()='name']/parent::*/following-sibling::*"));
