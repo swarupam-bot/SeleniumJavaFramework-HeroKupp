@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Minimum timeout for 10 sec]]>
+    </line>
+    <line>
+      <![CDATA[TableData DropDown is enabled.]]>
+    </line>
+    <line>
+      <![CDATA[TableData DropDown is clicked.]]>
+    </line>
+    <line>
+      <![CDATA[textBox is enabled.]]>
+    </line>
+    <line>
+      <![CDATA[Data is entered in Textbox: [{"gender":"male","name":"Bob","age":20},{"gender":"male","name":"George","age":42},{"gender":"female","name":"Sara","age":42},{"gender":"male","name":"Conor","age":40},{"gender":"female","name":"Jennifer","age":42}]]]>
+    </line>
+    <line>
+      <![CDATA[Refresh Button is enabled.]]>
+    </line>
+    <line>
+      <![CDATA[Refresh Button is clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Table is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[All data correctly populated and verified.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-08T03:22:43 IST" name="Default Suite" finished-at="2023-11-08T03:22:57 IST" duration-ms="13860">
+    <groups>
+    </groups>
+    <test started-at="2023-11-08T03:22:43 IST" name="AssignmentCAWStudios" finished-at="2023-11-08T03:22:57 IST" duration-ms="13860">
+      <class name="com.test.herokupp.TestRunner.HeroKuppTestRunner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.herokupp.TestRunner.HeroKuppTestRunner@645aa696]" started-at="2023-11-08T03:22:43 IST" name="setup" finished-at="2023-11-08T03:22:55 IST" duration-ms="12025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doInsertDataInTable()[pri:1, instance:com.test.herokupp.TestRunner.HeroKuppTestRunner@645aa696]" started-at="2023-11-08T03:22:55 IST" name="doInsertDataInTable" description="Insert json Data In Table" finished-at="2023-11-08T03:22:57 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Minimum timeout for 10 sec]]>
+            </line>
+            <line>
+              <![CDATA[TableData DropDown is enabled.]]>
+            </line>
+            <line>
+              <![CDATA[TableData DropDown is clicked.]]>
+            </line>
+            <line>
+              <![CDATA[textBox is enabled.]]>
+            </line>
+            <line>
+              <![CDATA[Data is entered in Textbox: [{"gender":"male","name":"Bob","age":20},{"gender":"male","name":"George","age":42},{"gender":"female","name":"Sara","age":42},{"gender":"male","name":"Conor","age":40},{"gender":"female","name":"Jennifer","age":42}]]]>
+            </line>
+            <line>
+              <![CDATA[Refresh Button is enabled.]]>
+            </line>
+            <line>
+              <![CDATA[Refresh Button is clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Table is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[All data correctly populated and verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doInsertDataInTable -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.test.herokupp.TestRunner.HeroKuppTestRunner@645aa696]" started-at="2023-11-08T03:22:57 IST" name="closeDriver" finished-at="2023-11-08T03:22:57 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.herokupp.TestRunner.HeroKuppTestRunner -->
+    </test> <!-- AssignmentCAWStudios -->
+  </suite> <!-- Default Suite -->
+</testng-results>
